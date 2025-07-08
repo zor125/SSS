@@ -7,6 +7,16 @@ import { CircularSlider } from 'react-native-circular-slider';
 import { useState } from 'react';
 
 
+//해야할 것들 : 로그인 기능으로 한 묶음으로 사용자들을 묶기 firebase로 연동
+//사용 시간과 시작을 상대방에게 보내는 알림 기능 추가,
+//사용 끝을 상대방에게 말하는 알림 기능 추가
+//-> 차량 사용 버튼을 누르면 차량 사용 시작
+//-> 차량 사용 종료 버튼을 누르면 차량 사용 종료
+
+
+//여유가 된다면 며칠 몇 시에 사용할 건지 예정하는 기능 추가
+
+
 export default function App() {
   //시작시간 종료시간 기능 각도 상수 선언
   const [startAngle, setStartAngle] = useState(0);

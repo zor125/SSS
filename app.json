@@ -16,14 +16,24 @@
       "supportsTablet": true
     },
     "android": {
+    "package": "com.zor125.sssv1",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
+      
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "40d5c775-f349-4fe1-92af-28e9a4f4dcfa"
+      }
     }
   }
 }
